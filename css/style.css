@@ -1,0 +1,203 @@
+.logo-img {
+    height: 30px; /* Adatta l'altezza dell'immagine */
+    width: auto;  /* Mantiene il rapporto proporzionale dell'immagine */
+}
+
+/* Colore del pulsante navbar-toggler */
+.navbar-toggler {
+    border: none; /* Rimuove il bordo predefinito */
+    outline: none; /* Rimuove i bordi del focus */
+}
+
+/* Colore e stile dell'icona hamburger */
+.navbar-toggler-icon {
+    background-image: none; /* Rimuovi l'icona predefinita */
+    color: #f1cf0c; /* Cambia il colore dell'icona */
+    font-size: 1rem; /* Ingrandisci l'icona */
+    width: 30px; /* Larghezza */
+    height: 3px; /* Altezza della barra */
+    background-color: #f1cf0c; /* Colore delle barre */
+    display: block; /* Assicurati che sia visibile */
+    outline: none;
+}
+
+.nav-link {
+    position: relative;
+    font-family: "Anton", sans-serif;
+}
+
+.nav-link::after {
+    content: ''; /*Questo pseudo-elemento viene usato per creare una linea decorativa */
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #f1cf0c;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.nav-link:hover::after {
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+
+/* Importanza colore testo navbar */
+.navbar-nav .nav-link {
+    color: white !important;
+}
+
+.btn {
+    font-family: "Anton", sans-serif;
+    color: rgb(17, 17, 17);
+    background-color: #f1cf0c;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.carousel h5 {
+    font-family: "Anton", sans-serif;
+    font-size: 100px;
+}
+
+.carousel p {
+    font-size: 20px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+.carousel-indicators .active {
+    background-color: #f1cf0c;
+}
+
+/* Section Programs */
+.program-section {
+    background-color: #333;
+    padding: 50px 0;
+    color: white;
+}
+
+.program-section h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #f1cf0c;
+}
+
+.program-box {
+    background-color: #444;
+    padding: 30px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+}
+
+.program-box:hover {
+    background-color: #f1cf0c;
+    color: rgb(17, 17, 17);
+}
+
+.program-box h5 {
+    font-family: "Anton", sans-serif;
+    font-size: 1.5rem;
+}
+
+.program-box p {
+    font-size: 1rem;
+}
+
+.reviews-row {
+    background-image: url(../res/Bg_recensioni.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 50px 0;
+    color: white;
+    position: relative;
+}
+
+.review-card {
+    background-color: rgba(0, 0, 0, 0.582);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+    transform: translateY(-5px); /* Animazione verso l'alto */
+}
+
+.review-card h5 {
+    font-family: "Anton", sans-serif; 
+    font-size: 1.5rem;
+}
+
+.reviews-row h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+}
+
+.star-rating {
+    color: #f1cf0c;
+    font-size: 20px;
+}
+
+.star {
+    margin: 0 2px;
+}
+
+.partners-section h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: rgb(17, 17, 17);
+}
+
+.partners-section {
+    background-color: #f1cf0c;
+    padding: 40px 0; /* Padding per la sezione */
+}
+
+.partner-logo {
+    max-width: 250px; /* Larghezza massima per i loghi */
+    height: auto;
+    margin: 5px; 
+    transition: transform 0.3s; /* Effetto di transizione */
+}
+
+.partner-logo:hover {
+    transform: scale(1.1); /* Effetto di ingrandimento al passaggio del mouse */
+}
+
+.font-anton {
+    font-family: 'Anton', sans-serif;
+}
+
+/* Aumenta la dimensione delle icone social nel footer */
+.footer-social-icons a i {
+    font-size: 24px;
+    margin-right: 10px; 
+}
+
+.footer-social-icons a i:hover {
+    color: #f0b90b; 
+}

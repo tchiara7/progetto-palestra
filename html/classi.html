@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classi</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/classi.css">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="../res/ggLogo.png" alt="GoldGym Logo" class="logo-img">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a href="../html/index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="../html/classi.html" class="nav-link">Classi</a></li>
+                    <li class="nav-item"><a href="../html/prezzi.html" class="nav-link">Prezzi</a></li>
+                    <li class="nav-item"><a href="../html/trainers.html" class="nav-link">Trainers</a></li>
+                </ul>
+                <button class="btn ms-lg-auto" onclick="location.href='join.html'">JOIN WITH US</button>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <main>
+            <div class="row">
+                <h6 class="text-center text-warning font-anton pt-2">SCEGLI IL CORSO</h6>
+            </div>
+            <div class="row">
+                <h3 class="text-center text-white mb-4 font-anton">I MIGLIORI PROGRAMMI PER IL TUO ALLENAMENTO</h3>
+            </div>
+            <div class="row text-white p-cards">
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card bg-secondary">
+                        <div class="img-parent">
+                            <img src="../res/classi-1.jpg" class="card-img-tops img-child" alt="img-cardio">
+                        </div>
+                        <div class="class-content mx-2">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <span class="nome-istruttore">Mattia Simo</span>
+                                </div>
+                                <div class="icone col-6">
+                                    <i class="bi bi-cart-fill mx-2"></i>
+                                    <i class="bi bi-star-fill mx-2"></i>
+                                    <i class="bi bi-heart-fill mx-2"></i>
+                                    <i class="bi bi-share-fill mx-2"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Cardio</h4>
+                                <div class="class-info row mt-4">
+                                    <div class="col-6">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Numero di classi</span>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Studenti</span>
+                                    </div>
+                                </div>
+                                <hr class="hr" />
+                                <div class="class-buy row">
+                                    <div class="col-4 text-start">
+                                        <span>120€</span>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>5.00 (1k)</span>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <button class="btn btn-gold"
+                                            onclick="mostraNotifica('Cardio')">Acquista</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12 mb-4">
+                    <div class="card bg-secondary">
+                        <div class="img-parent">
+                            <img src="../res/classi-2.jpg" class="card-img-top img-allenamento img-child"
+                                alt="img-body">
+                        </div>
+                        <div class="class-content mx-2">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <span class="nome-istruttore">Edoardo Leo</span>
+                                </div>
+                                <div class="icone col-6">
+                                    <i class="bi bi-cart-fill mx-2"></i>
+                                    <i class="bi bi-star-fill mx-2"></i>
+                                    <i class="bi bi-heart-fill mx-2"></i>
+                                    <i class="bi bi-share-fill mx-2"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">Body Building</h4>
+                                <div class="class-info row mt-4">
+                                    <div class="col-6">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Numero di classi</span>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Studenti</span>
+                                    </div>
+                                </div>
+                                <hr class="hr" />
+                                <div class="class-buy row">
+                                    <div class="col-4 text-start">
+                                        <span>130€</span>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>5.00 (1k)</span>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <button class="btn btn-gold"
+                                            onclick="mostraNotifica('Body Building')">Acquista</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-4 col-md-6 col-sm-12">
+                    <div class="card bg-secondary">
+                        <div class="img-parent">
+                            <img src="../res/classi-3.jpg" class="card-img-top img-allenamento img-child"
+                                alt="img-body">
+                        </div>
+                        <div class="class-content mx-2">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <span class="nome-istruttore">Stefano Colo</span>
+                                </div>
+                                <div class="icone col-6">
+                                    <i class="bi bi-cart-fill mx-2"></i>
+                                    <i class="bi bi-star-fill mx-2"></i>
+                                    <i class="bi bi-heart-fill mx-2"></i>
+                                    <i class="bi bi-share-fill mx-2"></i>
+                                </div>
+                            </div>
+                            <div class="card-body">
+                                <h4 class="card-title">CrossFit</h4>
+                                <div class="class-info row mt-4">
+                                    <div class="col-6">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Numero di classi</span>
+                                    </div>
+                                    <div class="col-6 text-end">
+                                        <i class="bi bi-journal"></i>
+                                        <span>Studenti</span>
+                                    </div>
+                                </div>
+                                <hr class="hr" />
+                                <div class="class-buy row">
+                                    <div class="col-4 text-start">
+                                        <span>150€</span>
+                                    </div>
+                                    <div class="col-4 text-center">
+                                        <i class="bi bi-star-fill"></i>
+                                        <span>5.00 (1k)</span>
+                                    </div>
+                                    <div class="col-4 text-end">
+                                        <button class="btn btn-gold "
+                                            onclick="mostraNotifica('CrossFit')">Acquista</button>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+    <footer class=" py-4 text-center text-white bg-dark">
+        <div class="container">
+            <div class="row mb-3">
+                <div class="col footer-social-icons">
+                    <h5 class="font-anton">Seguici sui social:</h5>
+                    <a href="#" class="text-white me-3"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="text-white"><i class="bi bi-twitter"></i></a>
+                    <h6 class="mt-2">"La tua forza, la nostra passione!"</h6>
+                </div>
+                <div class="col">
+                    <h5 class="font-anton">Indirizzo</h5>
+                    <p>Via della Salute, 123</p>
+                    <p>00100 Roma, Italia</p>
+                </div>
+                <div class="col">
+                    <h5 class="font-anton">Contatti</h5>
+                    <p>Email: info@goldgym.it</p>
+                    <p>Telefono: +39 123 456 789</p>
+                </div>
+            </div>
+            <p class="mb-0">&copy; 2024 GoldGym. All rights reserved.</p>
+        </div>
+    </footer>
+    <div class="position-relative">
+        <div id="notifica" class="position-fixed top-50 start-50 translate-middle d-none alert alert-success text-center bg-secondary">
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+
+</body>
+
+</html>

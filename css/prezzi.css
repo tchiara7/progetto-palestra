@@ -1,0 +1,114 @@
+h2 {
+    color: #000000;
+    font-family: "Anton", sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../res/fotoprezzi1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.table-dark td {
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius: 3px;
+}
+
+.table-dark th {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.975);
+    padding: 10px 10px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+table {
+    border-collapse: separate;
+    border-spacing: 5px;
+}
+
+.table-dark {
+    background-color: #333;
+    text-align: center;
+}
+
+.btn-join {
+    font-weight: bold;
+    background-color: #f1cf0c;
+    color: #ffffff;
+}
+
+.btn-lg {
+    font-weight: bold;
+    background-color: #f1cf0c;
+    color: #ffffff;
+}
+
+.navbar {
+
+    font-family: 'Anton', sans-serif;
+    background-color: #343a40 !important
+}
+
+.btn {
+    font-weight: bold;
+    background-color: #f1cf0c;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.628);
+}
+
+.font-anton {
+    font-family: 'Anton', sans-serif;
+
+}
+
+.tab1 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.1rem;
+}
+
+.container table {
+    opacity: 0.90;
+}
+
+.logo-img {
+    height: 30px;
+    /* Adatta l'altezza dell'immagine */
+    width: auto;
+    /* Mantiene il rapporto proporzionale dell'immagine */
+}
+
+.pubblicita {
+    background-color: #f1cf0c;
+    /* Colore di sfondo chiaro */
+    padding: 3px 0;
+    /* Padding per la sezione */
+    opacity: 95%;
+}
+
+.btn-outline-dark {
+    border-width: 3px;
+    border-color: #000000;
+    /* Bordo nero */
+    color: #000000;
+    /* Testo nero */
+    padding: 10px 20px;
+    border-radius: 50px;
+    /* Bottoni arrotondati */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+    /* Transizioni fluide */
+}
+
+.btn-outline-dark:hover {
+    background-color: #333;
+    /* Sfondo nero al passaggio del mouse */
+    color: #ffffff;
+    /* Testo bianco al passaggio del mouse */
+    transform: scale(1.05);
+    /* Leggera espansione al passaggio del mouse */
+}

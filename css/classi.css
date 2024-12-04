@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(../res/sfondo-classi.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.9;
+}
+.font-anton{
+    font-family: 'Anton', sans-serif;
+}
+
+.icone {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img-parent {
+    width: 100%;
+    height: 450px;
+}
+
+.img-child {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.p-cards {
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+
+/* breakpoint card padding per schermi con max-width: 760px */
+@media only screen and (max-width: 760px) {
+    .p-cards {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+.class-content {
+    padding: .5rem;
+}
+
+.nome-istruttore {
+    border-radius: 25px;
+    background: gold;
+    padding: 4px 8px;
+    color: black;
+}
+
+.btn-gold {
+    background: gold;
+}
+
+.alert {
+    color: gold;
+    border-color: gold;
+}

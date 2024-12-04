@@ -1,0 +1,31 @@
+
+.form-body {
+    background-image: url(../res/bg_formpage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container h2 {
+    font-family: "Anton", sans-serif;
+    font-size: 50px;
+    color: #f1cf0c;
+}
+
+.form-container {
+    max-width: 600px; 
+    margin: 40px auto; /* Centra il contenitore */
+    padding: 20px; 
+    background-color: rgba(49, 47, 47, 0.9);
+    border-radius: 8px;
+    color:  white;
+}
+
+.form-btn {
+    background-color: #f1cf0c; 
+    border: none;
+    color: rgb(17, 17, 17);
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s; 
+}
